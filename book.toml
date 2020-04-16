@@ -7,3 +7,8 @@ title = "Philosophical Discourses between a Lion and a Lamb"
 
 [build]
 build-dir = "docs"
+
+[output.html]
+default-theme = "rust"
+preferred-dark-theme = "coal"
+curly-quotes = true

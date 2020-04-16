@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js light">
+<html lang="en" class="sidebar-visible no-js rust">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -38,7 +38,7 @@
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
             var path_to_root = "";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "light";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "coal" : "rust";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
@@ -64,7 +64,7 @@
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
             html.classList.remove('no-js')
-            html.classList.remove('light')
+            html.classList.remove('rust')
             html.classList.add(theme);
             html.classList.add('js');
         </script>
@@ -102,8 +102,8 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
@@ -154,78 +154,78 @@
 me. I hope no one will mistakenly take them for a true retelling of an
 historical event. If, however, you do, I wish you luck.</p>
 <h1><a class="header" href="#prologue" id="prologue">Prologue</a></h1>
-<p>The sun shone red up the valley, lighting the higher treetops from beneath with its glow - and here and there between them a swish of a tail and the flash of passing whiskers, gold on golden, as the morning sun climbed up the valley to watch nature's adventures. Down by the stream a flock of wild sheep drank in icy water together with the new-born sunlight, and as a beam hit gold between the trees, in an instant they were gone. Scattering over the rocks and up cliffs, dots and streams of white and grey, but one large boulder slipped under the excitement, and at its rest, the earthly remains of a hard-working mother.</p>
-<p>The lioness crouched by its breakfast, eagerly filling its stomach. And as it settled to lazy munches - as the dust settled too - the late ewe's progeny twitched nervously by the rock, pinned in a corner by the latest benefactor of its mother's hard work. With nowhere to run to, no cousins to chase or ancestors to guide, the little orphan did what has been seen on rare occasions in nature, and sidled gently up to the lioness and nuzzled her expensive coat. Hunger satisfied, something twigged in the other's instinct. She, a mother bereft of child; he, a child bereft of mother; and soon the two were walking side by side, a whining little cling-on, and a new mother wondering what on earth to feed the little ball of white fluff.</p>
+<p>The sun shone red up the valley, lighting the higher treetops from beneath with its glow - and here and there between them a swish of a tail and the flash of passing whiskers, gold on golden, as the morning sun climbed up the valley to watch nature’s adventures. Down by the stream a flock of wild sheep drank in icy water together with the new-born sunlight, and as a beam hit gold between the trees, in an instant they were gone. Scattering over the rocks and up cliffs, dots and streams of white and grey, but one large boulder slipped under the excitement, and at its rest, the earthly remains of a hard-working mother.</p>
+<p>The lioness crouched by its breakfast, eagerly filling its stomach. And as it settled to lazy munches - as the dust settled too - the late ewe’s progeny twitched nervously by the rock, pinned in a corner by the latest benefactor of its mother’s hard work. With nowhere to run to, no cousins to chase or ancestors to guide, the little orphan did what has been seen on rare occasions in nature, and sidled gently up to the lioness and nuzzled her expensive coat. Hunger satisfied, something twigged in the other’s instinct. She, a mother bereft of child; he, a child bereft of mother; and soon the two were walking side by side, a whining little cling-on, and a new mother wondering what on earth to feed the little ball of white fluff.</p>
 <h1><a class="header" href="#1-grass-is-greener-than-blood" id="1-grass-is-greener-than-blood">1. Grass is Greener than Blood</a></h1>
 <p>The lioness stole two kills that day, one from mother nature, and another, a large rodent from an eagle who carelessly chose to eat its meal in plain view - for the lamb could hardly be expected to eat its own kin.</p>
 <p>But the lamb would not eat, so the lioness took her fill and left the rest to the poor.</p>
-<p>&quot;Then what will you eat?&quot; asked the anxious foster mother.</p>
-<p>&quot;You see that green stuff over yonder,&quot; replied the sheep, &quot;where the ground is smooth and the moisture seeps through the soil; we call that grass. If you'll let me wander over there, I'll eat it. I'm quite old enough not to need milk any more.&quot;</p>
-<p>&quot;Yes, dear, I know what grass is. But we lie on it, we do not eat it. Why, you'd have to eat over a whole mountainside every day to get your fill.&quot;</p>
-<p>&quot;But that's exactly what we do, mother - may I call you mother? We get up, we have our morning milk - though I don't, because I'm a big kid now--&quot;</p>
-<p>&quot;Not a kid, dear, they taste different--&quot;</p>
-<p>&quot;--and we eat, and walk, and walk, and eat. It's not a bad life.&quot;</p>
-<p>&quot;But,&quot; responded the curious mother, &quot;flesh and blood are rich with vitimins and iron, for the hungry cub. If you eat well you can spend a week playing  before your mama must hunt again.</p>
-<p>&quot;But mama - may I call you mama? Grazing grass is honourable work, and maybe one doesn't need to play all week, if the Creator has already made the grass to grow and we can eat it?&quot;</p>
-<p>&quot;That's enough, little one,&quot; the lioness concluded. &quot;Go and eat your grass, if that's what little lambs like best, and I will watch you wherever you wander even if my poor aching legs break for lack of rest.&quot;</p>
+<p>“Then what will you eat?” asked the anxious foster mother.</p>
+<p>“You see that green stuff over yonder,” replied the sheep, “where the ground is smooth and the moisture seeps through the soil; we call that grass. If you’ll let me wander over there, I’ll eat it. I’m quite old enough not to need milk any more.”</p>
+<p>“Yes, dear, I know what grass is. But we lie on it, we do not eat it. Why, you’d have to eat over a whole mountainside every day to get your fill.”</p>
+<p>“But that’s exactly what we do, mother - may I call you mother? We get up, we have our morning milk - though I don’t, because I’m a big kid now--”</p>
+<p>“Not a kid, dear, they taste different--”</p>
+<p>“--and we eat, and walk, and walk, and eat. It’s not a bad life.”</p>
+<p>“But,” responded the curious mother, “flesh and blood are rich with vitimins and iron, for the hungry cub. If you eat well you can spend a week playing  before your mama must hunt again.</p>
+<p>“But mama - may I call you mama? Grazing grass is honourable work, and maybe one doesn’t need to play all week, if the Creator has already made the grass to grow and we can eat it?”</p>
+<p>“That’s enough, little one,” the lioness concluded. “Go and eat your grass, if that’s what little lambs like best, and I will watch you wherever you wander even if my poor aching legs break for lack of rest.”</p>
 <h1><a class="header" href="#2-why-am-i-white-and-you-are-gold" id="2-why-am-i-white-and-you-are-gold">2. Why am I White and you are Gold?</a></h1>
-<p>&quot;Mother,&quot; the little sheepling asked one day, &quot;why am I white and you are gold?&quot;</p>
-<p>&quot;Because the good Creator made us that way, dear.&quot;</p>
-<p>The lioness thought for a while, and like all mothers who want to appear wise before their child, added an explanation. &quot;Perhaps you are white because you are innocent; you do not eat flesh, and the only roots you tear up are the little green ones the Creator has made to flourish and regrow like the grass.&quot;</p>
-<p>&quot;They are grass, mama!&quot;</p>
-<p>&quot;--and I am gold because I am majestic, queen over the wild; all fear before me.&quot;</p>
-<p>&quot;But cannot innocence rule over the wild, or majesty walk in peace and tranquility, maman?-- may I call you maman?&quot;</p>
-<p>&quot;All right, run along now my little mouflon. How could majesty be humble, or innocence full of splendour? It quite boggles the mind.&quot;</p>
+<p>“Mother,” the little sheepling asked one day, “why am I white and you are gold?”</p>
+<p>“Because the good Creator made us that way, dear.”</p>
+<p>The lioness thought for a while, and like all mothers who want to appear wise before their child, added an explanation. “Perhaps you are white because you are innocent; you do not eat flesh, and the only roots you tear up are the little green ones the Creator has made to flourish and regrow like the grass.”</p>
+<p>“They are grass, mama!”</p>
+<p>“--and I am gold because I am majestic, queen over the wild; all fear before me.”</p>
+<p>“But cannot innocence rule over the wild, or majesty walk in peace and tranquility, maman?-- may I call you maman?”</p>
+<p>“All right, run along now my little mouflon. How could majesty be humble, or innocence full of splendour? It quite boggles the mind.”</p>
 <h1><a class="header" href="#3-the-herd-mentality" id="3-the-herd-mentality">3. The Herd Mentality</a></h1>
 <p>The lioness kept her little charge from the pride for some time, but at last she had to exhibit her secret. Before the introduction, she made quite sure to lecture him on how to behave in the pride.</p>
-<p>&quot;Now, dear, you must remember to hold your head high and be strong, and flash those little white teeth of yours if someone pushes you around.&quot;</p>
-<p>&quot;Yes, mother,&quot; came the little reply, &quot;but if I push him and he pushes me, where will we end up?&quot;</p>
-<p>&quot;When you sheep are all together, you have no sense. You all follow, and who will choose what is best?&quot;</p>
-<p>&quot;But what if I choose what is worse? In the herd, we believe in each other, so we stick together even if one is weak - or stupid. We grow strong together. In the pride, what will I do if I am weaker and no one helps me?&quot;</p>
-<p>&quot;And in the herd, what do you do if someone pushes you around?&quot;</p>
-<p>&quot;Then I am patient. Better to stick together than destroy each other.&quot;</p>
-<p>&quot;In the pride,&quot; explained the mother, &quot;the one who is strongest leads, and he must prove his worth and the others will follow - or leave. We grow strong in the strongest.&quot;</p>
-<p>&quot;And if one day the fool is strong?&quot;</p>
-<p>&quot;Then we will fight him, so the wise may be stronger.&quot;</p>
-<p>This seemed puzzling to the sheep. At last he had a thought. &quot;Cannot the good Creator, who taught the pride to command, teach a lion to listen to those weaker than him?&quot;</p>
-<p>&quot;And,&quot; responded the lioness, &quot;cannot the good Creator, who taught the herd to listen, teach a sheep to command?&quot;</p>
+<p>“Now, dear, you must remember to hold your head high and be strong, and flash those little white teeth of yours if someone pushes you around.”</p>
+<p>“Yes, mother,” came the little reply, “but if I push him and he pushes me, where will we end up?”</p>
+<p>“When you sheep are all together, you have no sense. You all follow, and who will choose what is best?”</p>
+<p>“But what if I choose what is worse? In the herd, we believe in each other, so we stick together even if one is weak - or stupid. We grow strong together. In the pride, what will I do if I am weaker and no one helps me?”</p>
+<p>“And in the herd, what do you do if someone pushes you around?”</p>
+<p>“Then I am patient. Better to stick together than destroy each other.”</p>
+<p>“In the pride,” explained the mother, “the one who is strongest leads, and he must prove his worth and the others will follow - or leave. We grow strong in the strongest.”</p>
+<p>“And if one day the fool is strong?”</p>
+<p>“Then we will fight him, so the wise may be stronger.”</p>
+<p>This seemed puzzling to the sheep. At last he had a thought. “Cannot the good Creator, who taught the pride to command, teach a lion to listen to those weaker than him?”</p>
+<p>“And,” responded the lioness, “cannot the good Creator, who taught the herd to listen, teach a sheep to command?”</p>
 <h1><a class="header" href="#4-am-i-made-to-kill" id="4-am-i-made-to-kill">4. Am I Made to Kill?</a></h1>
 <p>The lioness and the lamb were watching one day from a hilltop. She, lying gently in the soft grass; he, pulling the same up in big mouthfuls, savouring its juicy taste; and on the hill opposite, their object of interest, a huge flock of whites and browns, making the most of the distance to graze in peace.</p>
-<p>A smile flickered across the the lioness's mouth, and a tongue across her muzzle. &quot;Twenty-four, thirty-six, and plump and juicy too.&quot;</p>
-<p>&quot;Don't talk that way,&quot; pleaded the sheep. &quot;Those are my sisters.&quot;</p>
-<p>&quot;What, all of them?&quot;</p>
-<p>&quot;And my cousins, and my aunts.&quot; The sheep made a mental note of which ones might best be picked off, if his mother must find a victim.</p>
-<p>But the lioness's mind was elsewhere. &quot;Do you think,&quot; she asked, half to herself, &quot;this is just how it is? Did the good Creator make me to eat and you to be eaten?&quot;</p>
-<p>&quot;Well,&quot; answered the lamb, half to the tuft of grass in his mouth, &quot;as a lion you always choose what you want best, right? And if you can't have it you fight for it. Perhaps it wasn't always this way, and one day a lion fought with a sheep and discovered the taste for blood.&quot;</p>
-<p>&quot;But look at my teeth,&quot; mused the mother. &quot;And if I eat grass only I'll die. If that's true, the first lion who chose to eat meat instead must have been quite different. Could we change that much?&quot;</p>
-<p>&quot;I think the real question,&quot; answered the mouthful of grass, &quot;is whether you can still choose?&quot;</p>
+<p>A smile flickered across the the lioness’s mouth, and a tongue across her muzzle. “Twenty-four, thirty-six, and plump and juicy too.”</p>
+<p>“Don’t talk that way,” pleaded the sheep. “Those are my sisters.”</p>
+<p>“What, all of them?”</p>
+<p>“And my cousins, and my aunts.” The sheep made a mental note of which ones might best be picked off, if his mother must find a victim.</p>
+<p>But the lioness’s mind was elsewhere. “Do you think,” she asked, half to herself, “this is just how it is? Did the good Creator make me to eat and you to be eaten?”</p>
+<p>“Well,” answered the lamb, half to the tuft of grass in his mouth, “as a lion you always choose what you want best, right? And if you can’t have it you fight for it. Perhaps it wasn’t always this way, and one day a lion fought with a sheep and discovered the taste for blood.”</p>
+<p>“But look at my teeth,” mused the mother. “And if I eat grass only I’ll die. If that’s true, the first lion who chose to eat meat instead must have been quite different. Could we change that much?”</p>
+<p>“I think the real question,” answered the mouthful of grass, “is whether you can still choose?”</p>
 <h1><a class="header" href="#5-choice-and-reason" id="5-choice-and-reason">5. Choice and Reason</a></h1>
-<p>&quot;I'm tired,&quot; complained the ball of white fluff being nuzzled out of sweet, grassy dreams. &quot;I though as a lion I should be strong-willed and do as I please.&quot;</p>
-<p>&quot;Remember, dear, when you were in the flock, you'd get up whenever everyone else did, and walk without complaint.&quot;</p>
-<p>&quot;But we <em>had</em> to get up early then, to get a good drink from the stream before the likes of you would come to eat us! Now you're my mother, I'm safe from all that.&quot;</p>
-<p>The mother chided her little one. &quot;Sometimes we have to do what we have to do, even if we don't understand. That's the way things are, and hidden reasons may be good reasons.&quot;</p>
-<p>&quot;But shouldn't we wonder what the reasons are?&quot; puzzled the little sheep.</p>
-<p>&quot;When we have a choice, yes, we must wonder, and seek carefully if the reasons are good. But when we have no choice, not so much.&quot;</p>
-<p>&quot;And don't we have a choice?&quot;</p>
-<p>Sharp teeth hovered inches from the bleary eyes, and a low rumble proceeded from within. &quot;<em>You</em> don't.&quot;</p>
-<h1><a class="header" href="#6-a-mothers-love" id="6-a-mothers-love">6. A Mother's Love</a></h1>
-<p>The sun glinted on the stream, as a mismatched pair wandered through the trees at the water's edge to find a drink, and new thoughts tinkled through the young one's mind.</p>
-<p>&quot;Mama, why do you eat other sheep, but not me?&quot;</p>
-<p>&quot;I cannot love all sheep,&quot; the older answered without missing a step, &quot; it's too much for a simple lion heart. Only the Creator can do that, and besides, he's given me the sheep to eat.&quot;</p>
-<p>&quot;I hope you won't do that forever!&quot; the younger interjected.</p>
-<p>&quot;Well, maybe. But the good Creator given us each a few to love, so we can understand his love too.&quot;</p>
-<p>&quot;But don't you want to love a little lion, of your own blood, born from your own womb?&quot;</p>
-<p>&quot;You and I aren't so different,&quot; the mother said. &quot;Sometimes a lion kills a lion - I'm not saying it's right, but it happens. But when we are given someone to love, whoever they be, we must love them with all we have - and the good Creator has given me you. If it were not so, how would the Creator himself love anyone but...&quot; and here the lioness tailed off, for such mysteries must wait their time.</p>
+<p>“I’m tired,” complained the ball of white fluff being nuzzled out of sweet, grassy dreams. “I though as a lion I should be strong-willed and do as I please.”</p>
+<p>“Remember, dear, when you were in the flock, you’d get up whenever everyone else did, and walk without complaint.”</p>
+<p>“But we <em>had</em> to get up early then, to get a good drink from the stream before the likes of you would come to eat us! Now you’re my mother, I’m safe from all that.”</p>
+<p>The mother chided her little one. “Sometimes we have to do what we have to do, even if we don’t understand. That’s the way things are, and hidden reasons may be good reasons.”</p>
+<p>“But shouldn’t we wonder what the reasons are?” puzzled the little sheep.</p>
+<p>“When we have a choice, yes, we must wonder, and seek carefully if the reasons are good. But when we have no choice, not so much.”</p>
+<p>“And don’t we have a choice?”</p>
+<p>Sharp teeth hovered inches from the bleary eyes, and a low rumble proceeded from within. “<em>You</em> don’t.”</p>
+<h1><a class="header" href="#6-a-mothers-love" id="6-a-mothers-love">6. A Mother’s Love</a></h1>
+<p>The sun glinted on the stream, as a mismatched pair wandered through the trees at the water’s edge to find a drink, and new thoughts tinkled through the young one’s mind.</p>
+<p>“Mama, why do you eat other sheep, but not me?”</p>
+<p>“I cannot love all sheep,” the older answered without missing a step, “ it’s too much for a simple lion heart. Only the Creator can do that, and besides, he’s given me the sheep to eat.”</p>
+<p>“I hope you won’t do that forever!” the younger interjected.</p>
+<p>“Well, maybe. But the good Creator given us each a few to love, so we can understand his love too.”</p>
+<p>“But don’t you want to love a little lion, of your own blood, born from your own womb?”</p>
+<p>“You and I aren’t so different,” the mother said. “Sometimes a lion kills a lion - I’m not saying it’s right, but it happens. But when we are given someone to love, whoever they be, we must love them with all we have - and the good Creator has given me you. If it were not so, how would the Creator himself love anyone but...” and here the lioness tailed off, for such mysteries must wait their time.</p>
 <h1><a class="header" href="#7-life-death-and-corruption" id="7-life-death-and-corruption">7. Life, Death and Corruption</a></h1>
-<p>That the lamb was different in appearance to his mother -- small, white and fluffy to sleek, golden and terrifying -- was obvious to him. But as the days went on, he felt he was a lion neither inside his sheep's clothing; and if not a lion, could he truly follow his mother's ways?</p>
-<p>So one day he asked his mother. &quot;How do I know the right thing to do?&quot;</p>
-<p>&quot;Do you have a choice,&quot; his mother asked?</p>
-<p>&quot;I think so,&quot; he offered.</p>
-<p>&quot;Then you must do whatever your creator made you to do. Otherwise you are corrupted, and in the end will die.&quot;</p>
-<p>The lamb pondered this a while. &quot;Then, it seems I am corrupted against my will. For whatever I do, someday I will die.&quot;</p>
-<p>&quot;So it seems, and I too,&quot; answered his mother sadly.</p>
-<p>After a pause the lamb spoke again. &quot;Do you think, perhaps, there might be a way to be un-corrupted?&quot;</p>
-<p>&quot;That seems very hard,&quot; his mother replied, &quot;but if there is, since in life you are corrupted, I can't think it would be possible except through death.&quot;</p>
+<p>That the lamb was different in appearance to his mother -- small, white and fluffy to sleek, golden and terrifying -- was obvious to him. But as the days went on, he felt he was a lion neither inside his sheep’s clothing; and if not a lion, could he truly follow his mother’s ways?</p>
+<p>So one day he asked his mother. “How do I know the right thing to do?”</p>
+<p>“Do you have a choice,” his mother asked?</p>
+<p>“I think so,” he offered.</p>
+<p>“Then you must do whatever your creator made you to do. Otherwise you are corrupted, and in the end will die.”</p>
+<p>The lamb pondered this a while. “Then, it seems I am corrupted against my will. For whatever I do, someday I will die.”</p>
+<p>“So it seems, and I too,” answered his mother sadly.</p>
+<p>After a pause the lamb spoke again. “Do you think, perhaps, there might be a way to be un-corrupted?”</p>
+<p>“That seems very hard,” his mother replied, “but if there is, since in life you are corrupted, I can’t think it would be possible except through death.”</p>
 
                     </main>
 
